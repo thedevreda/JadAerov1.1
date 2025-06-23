@@ -1,0 +1,41 @@
+['Afghanistan', 'Algeria', 'Angola', 'Argentina', 'Australia',
+       'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh',
+       'Belarus', 'Belgium', 'Bermuda', 'Brazil', 'Brunei Darussalam',
+       'Cameroon', 'Canada', 'Cayman Islands', 'Chile', 'China',
+       'Colombia', 'Congo, the Democratic Republic', 'Cyprus',
+       'Czech Republic', 'Denmark', 'Dominican Republic', 'Ecuador',
+       'Egypt', 'El Salvador', 'Equatorial Guinea', 'Ethiopia', 'Fiji',
+       'France', 'Gabon', 'Germany', 'Gibraltar', 'Greece', 'Guinea',
+       'Honduras', 'Hong Kong', 'Iceland', 'India', 'Indonesia',
+       'Iran, Islamic Republic of', 'Iraq', 'Ireland', 'Israel', 'Japan',
+       'Kazakhstan', 'Kenya', 'Kuwait', 'Liberia', 'Luxembourg',
+       'Madagascar', 'Malaysia', 'Malta', 'Mauritania', 'Mexico',
+       'Mongolia', 'Morocco', 'Mozambique', 'Nauru', 'Netherlands',
+       'New Zealand', 'Niger', 'Nigeria', 'Norway', 'Oman', 'Pakistan',
+       'Panama', 'Papua New Guinea', 'Peru', 'Philippines', 'Poland',
+       'Portugal', 'Qatar', 'Reunion', 'Romania', 'Russian Federation',
+       'Rwanda', 'Samoa', 'Saudi Arabia', 'Senegal', 'Serbia',
+       'Singapore', 'Slovakia (Slovak Republic)', 'South Africa',
+       'South Korea', 'Spain', 'State of Libya', 'Sudan', 'Sweden',
+       'Switzerland', 'Taiwan', 'Tajikistan',
+       'Tanzania, United Republic of', 'Thailand', 'Tunisia', 'Turkey',
+       'Turkmenistan', 'Ukraine', 'Unidentified', 'United Arab Emirates',
+       'United Kingdom', 'Uruguay', 'USA', 'Venezuela', 'Vietnam',
+       'Yemen', 'Zambia', 'Zimbabwe']
+
+
+dataset_boeing_airlines['Country']
+       'Brunei Darussalam', | 'Brunei'
+       'Cayman Islands',
+       'Congo, the Democratic Republic', | 'Democratic Republic of the Congo' , | 'Congo (Congo-Brazzaville)'
+       'Czech Republic',
+       'Dominican Republic',
+       'El Salvador',
+       'Equatorial Guinea',
+       'Iran, Islamic Republic of', | 'Iran'
+       'Slovakia (Slovak Republic)', | 'Slovakia'
+       'State of Libya', | 'Libya'
+       'Tanzania, United Republic of', | 'Tanzania'
+       'Unidentified', | 'Unknown Country'
+       'USA', | 'United States'
+

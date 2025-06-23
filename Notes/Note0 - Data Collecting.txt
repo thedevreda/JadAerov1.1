@@ -1,0 +1,27 @@
+# Always the aircraft put there database in thier website section orders-and-deliveries,
+# Also you can use tableau to look for viz that use the same dataset and download it or sometimes they prove a data source link
+
+Boeing : https://www.boeing.com/commercial#orders-deliveries
+Airbus : https://www.airbus.com/en/products-services/commercial-aircraft/orders-and-deliveries
+
+
+# Aircraft parts webscraping : 
+# boeing737 is noit available use a filter to filter part number with  Applicable aircraft models:boeing (737 series)
+
+Airbus : https://aerobasegroup.com/aircraft-parts-catalog/airbus/model/airbus+a320/
+Boeing : https://aerobasegroup.com/aircraft-parts-catalog/boeing/
+
+# Number one to collect data about airplane aricraft : https://www.aerospacepurchasing.com/manufacturer/
+# Airbus aircraft : https://www.aerospacepurchasing.com/airbus-aircraft-parts/
+# Boeing aircraft : https://www.aerospacepurchasing.com/boeing-aircraft-parts/
+
+
+
+# dic to dataset
+    # create that based on all counties in the world 
+    # categories countires based on the replcement interval distants and location condition  #Geographical Location(Desert Locations, Long-haul, Coastal Cities....etc)
+    # categories aircraft parts to create a replacement interval #Replacement Interval(200-300 landings) #Replacement Name(Tires, Engines, etc.)
+    # datastructre(country,Geographical Location,Replacement Name,Replacement Interval)
+# join the two datasets on the airlines and country columns with 
+      # airlines = ri => countries
+      # aircraft parts = ri => replacement interval common name  
