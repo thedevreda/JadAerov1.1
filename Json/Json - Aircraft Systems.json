@@ -1,0 +1,552 @@
+
+{
+  "electrical_system": {
+    "keywords": [
+      "short circuit", "battery failure", "wiring damage", "voltage drop",
+      "burnt fuse", "connector corrosion", "loose wiring", "panel assembly",
+      "lamp failure", "28 volt lamp", "wire bundle", "trailing wire",
+      "power loss", "intermittent electrical", "ground fault", "circuit breaker trip",
+      "overvoltage", "undervoltage", "electrical arcing", "flickering light",
+      "malfunction indicator", "faulty panel", "blown fuse", "cable damage"
+    ],
+    "common_parts": [
+      "BATTERY", "WIRES", "FUSE", "CONNECTOR", "LAMP", "PANEL ASSEMBLY",
+      "WIRE BUNDLE", "CIRCUIT BREAKER", "TERMINAL", "SWITCH",
+      "POWER DISTRIBUTION UNIT", "INDICATOR LIGHT", "ELECTRICAL RELAY",
+      "JUNCTION BOX", "ELECTRICAL BUS"
+    ],
+    "failure_modes": [
+      "Short circuit", "Overload", "Component failure", "Open circuit",
+      "Corrosion", "Insulation breakdown", "Connector looseness", "Lamp burnout"
+    ],
+    "risk_level": "Moderate",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Batteries": "Every 2 years or when capacity drops below 80%",
+      "Wiring": "On-condition - inspect during scheduled maintenance or after fault detection",
+      "Fuses": "Replace after any fault or signs of wear",
+      "Lamps": "Replace upon failure or every 500 flight hours"
+    },
+    "geo_targets": ["Urban", "Island", "Coastal", "Desert", "Mountain"],
+    "countries": ["Morocco", "United States", "India", "France", "Brazil", "Germany", "Japan"]
+  },
+  "landing_gear_system": {
+    "keywords": [
+      "landing gear", "shock absorber", "strut", "tire wear", "brake failure",
+      "hydraulic leak", "gear extension", "retraction failure", "gear door",
+      "wheel assembly", "brake pad", "torque link", "drag brace", "actuator leak",
+      "strut extension", "landing gear warning", "nose gear", "main gear",
+      "wheel crack", "gear stuck", "gear hydraulic"
+    ],
+    "common_parts": [
+      "SHOCK ABSORBER", "STRUT", "TIRE", "BRAKE PAD", "ACTUATOR", "TORQUE LINK",
+      "GEAR DOOR", "WHEEL ASSEMBLY", "DRAG BRACE", "HYDRAULIC CYLINDER",
+      "RETRACTION SYSTEM", "POSITION SENSOR", "GEAR MOTOR", "UPLOCK MECHANISM"
+    ],
+    "failure_modes": [
+      "Hydraulic leak", "Wear and tear", "Retraction failure", "Corrosion",
+      "Tire blowout", "Actuator malfunction", "Brake fade", "Strut collapse"
+    ],
+    "risk_level": "High",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Tires": "Every 300-500 landings or on damage",
+      "Brake Pads": "Every 1000 landings or as per wear indicators",
+      "Hydraulic Components": "On-condition, inspect every 6 months",
+      "Shock Absorbers": "Every 3 years or on leak detection"
+    },
+    "geo_targets": ["Desert", "Coastal", "Urban", "Mountain"],
+    "countries": ["Morocco", "United States", "Egypt", "Canada", "Germany"]
+  },
+  "hydraulic_system": {
+    "keywords": [
+      "hydraulic leak", "pressure drop", "pump failure", "fluid contamination",
+      "seal damage", "valve stuck", "line burst", "system overheat",
+      "fluid low", "hydraulic fluid loss", "hydraulic actuator jam",
+      "hydraulic motor failure", "reservoir depletion", "hydraulic line crack"
+    ],
+    "common_parts": [
+      "HYDRAULIC PUMP", "SEAL", "VALVE", "ACTUATOR", "RESERVOIR", "FILTER",
+      "HOSE", "CYLINDER", "PRESSURE SENSOR", "RELIEF VALVE", "HYDRAULIC FLUID",
+      "ACCUMULATOR", "HYDRAULIC MANIFOLD", "LINE CONNECTOR"
+    ],
+    "failure_modes": [
+      "Seal leak", "Pump failure", "Contamination", "Valve blockage",
+      "Pressure loss", "Hose rupture", "Fluid degradation", "Component overheating"
+    ],
+    "risk_level": "High",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Seals": "Every 2 years or on leak detection",
+      "Filters": "Every 500 flight hours",
+      "Hydraulic Fluid": "Every 1000 flight hours or if contaminated",
+      "Hoses": "On-condition; inspect every 12 months"
+    },
+    "geo_targets": ["Coastal", "Desert", "Tropical", "Mountain"],
+    "countries": ["Morocco", "India", "Brazil", "United States", "Russia"]
+  },
+  "avionics_system": {
+    "keywords": [
+      "navigation failure", "radio malfunction", "display error", "software glitch",
+      "GPS loss", "autopilot failure", "antenna damage", "communication drop",
+      "data link error", "signal interference", "sensor malfunction", "transponder issue",
+      "radar failure", "control unit freeze", "display blackout"
+    ],
+    "common_parts": [
+      "RADIO", "GPS UNIT", "DISPLAY", "AUTOPILOT MODULE", "ANTENNA",
+      "SENSOR", "TRANSCEIVER", "FLIGHT COMPUTER", "NAVIGATION PANEL",
+      "ALTIMETER", "TRANSPONDER", "AVIONICS RACK", "SOFTWARE MODULE"
+    ],
+    "failure_modes": [
+      "Software crash", "Hardware failure", "Signal interference",
+      "Component overheating", "Power supply failure", "Connection loss"
+    ],
+    "risk_level": "Moderate",
+    "priority ": "High",
+    "replacement_interval": {
+      "Displays": "On-condition or every 5 years",
+      "Radios": "On-condition, inspect every 12 months",
+      "Sensors": "On-condition; calibrate regularly",
+      "Flight Computers": "Every 7 years or software update"
+    },
+    "geo_targets": ["Urban", "Island", "Coastal", "Mountain"],
+    "countries": ["Morocco", "France", "Japan", "Germany", "Brazil"]
+  },
+  "engine_system": {
+    "keywords": [
+      "engine stall", "oil leak", "compressor damage", "turbine failure",
+      "overheating", "vibration", "power loss", "ignition issue",
+      "sensor error", "exhaust smoke", "unusual noise", "low oil pressure",
+      "flameout", "inlet obstruction", "hot start"
+    ],
+    "common_parts": [
+      "COMPRESSOR", "TURBINE", "FUEL INJECTOR", "OIL SEAL", "BEARING",
+      "IGNITION SYSTEM", "EXHAUST SYSTEM", "SENSOR", "ENGINE MOUNT",
+      "OIL FILTER", "FAN BLADE", "GEARBOX", "STARTER", "TEMPERATURE SENSOR"
+    ],
+    "failure_modes": [
+      "Overheating", "Wear and tear", "Oil contamination", "Blade damage",
+      "Fuel starvation", "Sensor failure", "Ignition loss"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Oil Seals": "Every 1000 flight hours or on leak detection",
+      "Bearings": "Every 3000 flight hours or on vibration detection",
+      "Blades": "On-condition; inspect every 1000 flight hours",
+      "Fuel Injectors": "Every 2000 flight hours"
+    },
+    "geo_targets": ["Desert", "Coastal", "Tropical", "Mountain"],
+    "countries": ["Morocco", "Russia", "China", "India", "United States"]
+  },
+  "fuel_system": {
+    "keywords": [
+      "fuel leak", "clogged filter", "pump failure", "fuel contamination",
+      "valve malfunction", "low pressure", "fuel starvation", "tank sensor error",
+      "air lock", "fuel flow restriction", "crossfeed error", "tank crack"
+    ],
+    "common_parts": [
+      "FUEL PUMP", "FILTER", "VALVE", "FUEL TANK", "FUEL LINE", "PRESSURE SENSOR",
+      "FUEL GAUGE", "INJECTOR", "CROSSFEED VALVE", "DRAIN VALVE", "VAPOR SEPARATOR"
+    ],
+    "failure_modes": [
+      "Leak", "Contamination", "Pump failure", "Blockage", "Pressure loss", "Sensor error"
+    ],
+    "risk_level": "High",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Filters": "Every 500 flight hours",
+      "Pumps": "On-condition, inspect every 1000 flight hours",
+      "Fuel Lines": "On-condition, inspect annually",
+      "Valves": "On-condition; replace on failure"
+    },
+    "geo_targets": ["Coastal", "Urban", "Desert", "Tropical"],
+    "countries": ["Morocco", "India", "Egypt", "United States", "China"]
+  },
+  "environmental_control_system": {
+    "keywords": [
+      "air conditioning failure", "bleed air leak", "temperature error",
+      "pressure regulator fault", "fan issue", "humidity control problem",
+      "filter clog", "duct leak", "ventilation low", "no airflow",
+      "overheat cabin", "cooling unit failure"
+    ],
+    "common_parts": [
+      "BLEED AIR VALVE", "FAN", "FILTER", "DUCT", "PRESSURE REGULATOR",
+      "TEMPERATURE SENSOR", "CONTROL UNIT", "VENT OUTLET", "HEAT EXCHANGER",
+      "PACK CONTROLLER", "CABIN SENSOR"
+    ],
+    "failure_modes": [
+      "Leak", "Blockage", "Sensor failure", "Valve malfunction", "Fan failure", "Overheating"
+    ],
+    "risk_level": "Moderate",
+    "priority ": "Moderate",
+    "replacement_interval": {
+      "Filters": "Every 1000 flight hours",
+      "Valves": "On-condition, inspect every 2 years",
+      "Fans": "Every 5 years or on failure"
+    },
+    "geo_targets": ["Tropical", "Desert", "Coastal", "Urban"],
+    "countries": ["Morocco", "France", "India", "Australia", "Brazil"]
+  },
+  "flight_control_system": {
+    "keywords": [
+      "actuator failure", "control surface jam", "servo issue", "hydraulic leak",
+      "rudder problem", "aileron lock", "elevator malfunction", "cable break",
+      "trim runaway", "feedback loss", "flap stuck", "spoiler malfunction"
+    ],
+    "common_parts": [
+      "ACTUATOR", "CONTROL CABLE", "SERVO", "HYDRAULIC CYLINDER",
+      "RUDDER", "AILERON", "ELEVATOR", "STICK SHAKER UNIT",
+      "TRIM MOTOR", "SPOILER PANEL", "FLAP TRACK"
+    ],
+    "failure_modes": [
+      "Hydraulic leak", "Mechanical jam", "Servo failure", "Cable wear",
+      "Actuator stall", "Surface imbalance"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Control Cables": "Every 5 years or on inspection failure",
+      "Actuators": "On-condition; inspect every 2 years",
+      "Servos": "On-condition; replace on malfunction"
+    },
+    "geo_targets": ["Mountain", "Coastal", "Urban", "Desert"],
+    "countries": ["Morocco", "Russia", "Germany", "Brazil", "United States"]
+  },
+  "ice_and_rain_protection_system": {
+    "keywords": [
+      "de-ice failure", "anti-ice problem", "heater malfunction",
+      "probe ice", "windshield ice", "rain repellent failure",
+      "pitot heat fail", "boot pressure loss", "ice build-up",
+      "ice sensor alert", "heated surface fault", "nozzle blockage"
+    ],
+    "common_parts": [
+      "HEATED PROBE", "WINDSHIELD HEATER", "PITOT TUBE", "DE-ICE BOOT",
+      "ANTI-ICE VALVE", "ICE DETECTOR", "RAIN REPELLENT PUMP", "CONTROL SWITCH",
+      "ICE PROTECTION CONTROLLER", "THERMAL MATTING"
+    ],
+    "failure_modes": [
+      "Heater burnout", "Ice accumulation", "Sensor failure",
+      "Boot puncture", "Pressure failure", "Wiring short"
+    ],
+    "risk_level": "High",
+    "priority ": "High",
+    "replacement_interval": {
+      "Heaters": "On-condition; inspect every 1000 flight hours",
+      "Probes": "On-condition; inspect every 500 hours",
+      "Boots": "Every 3 years or on crack detection"
+    },
+    "geo_targets": ["Arctic", "Mountain", "Coastal", "Urban"],
+    "countries": ["Canada", "Russia", "Norway", "United States", "Japan"]
+  },
+  "oxygen_system": {
+    "keywords": [
+      "oxygen leak", "mask fault", "bottle pressure low", "regulator malfunction",
+      "oxygen depletion", "emergency oxygen failure", "flow loss", "cylinder crack",
+      "hose disconnection", "O2 gauge fault", "dilution valve stuck"
+    ],
+    "common_parts": [
+      "OXYGEN MASK", "OXYGEN CYLINDER", "REGULATOR", "FLOW METER",
+      "CONTROL PANEL", "TUBING", "PRESSURE GAUGE", "DILUTION VALVE",
+      "OXYGEN GENERATOR", "HOSE CONNECTOR"
+    ],
+    "failure_modes": [
+      "Leak", "Depletion", "Flow restriction", "Crack", "Regulator fault", "Bottle puncture"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Cylinders": "Every 5 years or on pressure loss",
+      "Masks": "Every 3 years or on hygiene inspection",
+      "Regulators": "Every 6 years or on flow failure"
+    },
+    "geo_targets": ["Mountain", "Urban", "Island"],
+    "countries": ["Nepal", "Peru", "India", "United States", "Switzerland"]
+  },
+  "fire_protection_system": {
+    "keywords": [
+      "fire sensor failure", "smoke detector fault", "extinguisher discharge",
+      "overheat warning", "false alarm", "no extinguisher pressure",
+      "engine fire", "APU fire", "cargo smoke", "cabin smoke",
+      "fire loop error", "control fault", "bottle leak"
+    ],
+    "common_parts": [
+      "FIRE SENSOR", "SMOKE DETECTOR", "EXTINGUISHER", "CONTROL MODULE",
+      "WIRING HARNESS", "FIRE LOOP", "DISCHARGE INDICATOR", "ALARM PANEL",
+      "OVERHEAT DETECTOR", "FIRE SWITCH"
+    ],
+    "failure_modes": [
+      "Sensor fault", "False positive", "Empty bottle", "Wiring short",
+      "Control unit fault", "Leak", "Discharge failure"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Extinguishers": "Every 5 years or after any discharge",
+      "Sensors": "Every 2 years or on detection failure",
+      "Smoke Detectors": "Every 1000 flight hours"
+    },
+    "geo_targets": ["Urban", "Island", "Tropical", "Mountain"],
+    "countries": ["United States", "India", "South Africa", "Brazil", "Germany"]
+  },
+  "apu_system": {
+    "keywords": [
+      "APU overheat", "start failure", "generator fault", "oil leak",
+      "low RPM", "auto shutdown", "vibration", "smoke from APU",
+      "APU flame", "fuel issue", "no start", "electrical short", "cooling failure"
+    ],
+    "common_parts": [
+      "APU UNIT", "STARTER", "GENERATOR", "OIL FILTER", "TEMPERATURE SENSOR",
+      "FUEL CONTROL UNIT", "EXHAUST DUCT", "VIBRATION SENSOR",
+      "OIL PUMP", "COOLING FAN"
+    ],
+    "failure_modes": [
+      "Overheat", "Start failure", "Oil loss", "Fuel starvation",
+      "Vibration", "Smoke emission", "RPM drop"
+    ],
+    "risk_level": "High",
+    "priority ": "High",
+    "replacement_interval": {
+      "Oil Filters": "Every 1000 hours",
+      "Starters": "On-condition; inspect every 2 years",
+      "Sensors": "Every 500 hours",
+      "Generators": "Every 5 years or on fault"
+    },
+    "geo_targets": ["Desert", "Urban", "Island"],
+    "countries": ["UAE", "Morocco", "India", "Mexico", "Australia"]
+  },
+  "navigation_system": {
+    "keywords": [
+      "GPS failure", "inertial error", "navigation drift", "VOR signal loss",
+      "radar malfunction", "position error", "map not found", "routing failure",
+      "autopilot deviation", "RNP/ANP mismatch", "waypoint skipping"
+    ],
+    "common_parts": [
+      "GPS RECEIVER", "INS MODULE", "NAV DISPLAY", "VOR ANTENNA",
+      "DME UNIT", "FLIGHT MANAGEMENT COMPUTER", "RADAR MODULE",
+      "NAVIGATION SWITCH", "CDU (Control Display Unit)", "WAYPOINT PROCESSOR"
+    ],
+    "failure_modes": [
+      "Signal loss", "Software error", "Antenna failure", "Drift", "Dead reckoning failure"
+    ],
+    "risk_level": "High",
+    "priority ": "High",
+    "replacement_interval": {
+      "GPS Receiver": "Every 5 years or on signal fault",
+      "FMS": "On-condition; software update every 2 years",
+      "Radar Module": "On-condition"
+    },
+    "geo_targets": ["Urban", "Mountain", "Island", "Continental"],
+    "countries": ["USA", "Germany", "Japan", "India", "Chile"]
+  },
+  "communication_system": {
+    "keywords": [
+      "radio silence", "comms loss", "mic failure", "VHF interference",
+      "HF static", "antenna fault", "audio panel stuck", "transmission drop",
+      "intercom issue", "satcom loss"
+    ],
+    "common_parts": [
+      "VHF RADIO", "HF RADIO", "ANTENNA", "MICROPHONE", "HEADSET",
+      "AUDIO CONTROL PANEL", "SATCOM UNIT", "INTERCOM SYSTEM"
+    ],
+    "failure_modes": [
+      "Signal interference", "Equipment failure", "Wiring damage",
+      "Mic failure", "Power loss"
+    ],
+    "risk_level": "Moderate",
+    "priority ": "High",
+    "replacement_interval": {
+      "Radios": "Every 6 years or on-condition",
+      "Antennas": "On-condition; inspect every 18 months",
+      "Headsets": "On-condition or after 2 years use"
+    },
+    "geo_targets": ["Island", "Coastal", "Urban", "Mountain"],
+    "countries": ["Canada", "France", "Brazil", "Australia", "Kenya"]
+  },
+  "lighting_system": {
+    "keywords": [
+      "bulb failure", "cockpit light out", "cabin dark", "emergency light fault",
+      "strobe light not working", "beacon off", "navigation light failure",
+      "flickering panel light", "instrument light out"
+    ],
+    "common_parts": [
+      "LANDING LIGHT", "NAVIGATION LIGHT", "BEACON", "STROBE", "INTERIOR BULB",
+      "FLOOD LIGHT", "COCKPIT LIGHT STRIP", "CABIN EMERGENCY LIGHT", "SWITCH PANEL"
+    ],
+    "failure_modes": [
+      "Bulb burnout", "Wiring damage", "Switch failure", "Fuse blown",
+      "Connector corroded"
+    ],
+    "risk_level": "Low",
+    "priority ": "Low",
+    "replacement_interval": {
+      "Bulbs": "Every 500 flight hours or on failure",
+      "LED Strips": "Every 3 years",
+      "Switches": "On-condition"
+    },
+    "geo_targets": ["Urban", "Desert", "Coastal"],
+    "countries": ["Morocco", "USA", "Qatar", "UK", "Malaysia"]
+  },
+  "cabin_system": {
+    "keywords": [
+      "IFE screen black", "seat motor jam", "galley oven fault",
+      "audio not working", "tray stuck", "reading light off",
+      "call button failure", "seatbelt sign error", "lavatory light out",
+      "water pump fail", "cabin noise"
+    ],
+    "common_parts": [
+      "IFE DISPLAY", "SEAT MOTOR", "GALLEY EQUIPMENT", "AUDIO JACK",
+      "CABIN LIGHT", "CALL BUTTON", "LAVATORY UNIT", "TRAY TABLE", "WATER PUMP"
+    ],
+    "failure_modes": [
+      "Electrical failure", "Mechanical jam", "Wear and tear",
+      "Motor burn", "Loose connection"
+    ],
+    "risk_level": "Low",
+    "priority ": "Low",
+    "replacement_interval": {
+      "Seat Motors": "On-condition; inspect every 18 months",
+      "IFE Screens": "Every 5 years or on pixel damage",
+      "Cabin Lights": "Every 2 years or 1000 cycles"
+    },
+    "geo_targets": ["Urban", "Island", "Continental"],
+    "countries": ["United States", "France", "UAE", "Singapore", "Spain"]
+  },
+  "powerplant_controls": {
+    "keywords": [
+      "thrust lever stuck", "EEC fault", "FADEC issue", "idle control problem",
+      "engine start logic failure", "autothrottle jam", "turbine response delay",
+      "power rollback", "control signal error"
+    ],
+    "common_parts": [
+      "FADEC", "EEC UNIT", "THROTTLE LEVER", "POWER CONTROL MODULE",
+      "AUTOTHROTTLE SERVO", "SPEED TRIM UNIT", "IGNITION CONTROL", "START LEVER"
+    ],
+    "failure_modes": [
+      "Software error", "Control surface jam", "Actuation failure",
+      "Signal loss", "Throttle linkage break"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "FADEC": "Every 5 years or after failure",
+      "Throttle Controls": "On-condition; inspect every 1000 hours",
+      "Ignition Units": "Every 3000 hours or on hot start"
+    },
+    "geo_targets": ["Desert", "Tropical", "Urban"],
+    "countries": ["United States", "Morocco", "Brazil", "Japan", "Indonesia"]
+  },
+  "pressurization_system": {
+    "keywords": [
+      "cabin pressure loss", "altitude warning", "outflow valve stuck",
+      "leakage", "controller malfunction", "delta pressure high",
+      "auto pressurization fail", "manual control error"
+    ],
+    "common_parts": [
+      "OUTFLOW VALVE", "PRESSURE CONTROLLER", "CABIN SENSOR", "DUCT",
+      "PRESSURE RELIEF VALVE", "ALTITUDE SENSOR", "CABIN PRESSURE SWITCH"
+    ],
+    "failure_modes": [
+      "Leak", "Valve stuck", "Sensor fault", "Controller failure"
+    ],
+    "risk_level": "High",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Valves": "On-condition, inspect every 6 months",
+      "Sensors": "Every 2 years or after malfunction"
+    },
+    "geo_targets": ["Mountain", "Continental", "Urban"],
+    "countries": ["Switzerland", "Nepal", "USA", "Colombia"]
+  },
+  "anti_collision_system": {
+    "keywords": [
+      "TCAS fail", "RA not triggered", "collision alert", "transponder fail",
+      "TA/RA error", "no resolution advisory", "TCAS communication loss"
+    ],
+    "common_parts": [
+      "TCAS UNIT", "ANTENNA", "RA DISPLAY", "CONTROL PANEL", "TRANSPONDER",
+      "INTERFACE CABLE", "TCAS SWITCH"
+    ],
+    "failure_modes": [
+      "Signal loss", "Unit failure", "RA failure", "Control panel fault"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "TCAS Unit": "Every 5 years or after non-response",
+      "Transponder": "On-condition",
+      "Displays": "Every 4 years or on dead pixels"
+    },
+    "geo_targets": ["Urban", "High-traffic zones"],
+    "countries": ["UK", "USA", "Germany", "Japan", "India"]
+  },
+  "weather_radar_system": {
+    "keywords": [
+      "radar fail", "no storm return", "signal distortion", "weather overlay error",
+      "antenna jam", "screen blackout", "storm path not shown", "radome crack"
+    ],
+    "common_parts": [
+      "RADOME", "RADAR ANTENNA", "DISPLAY UNIT", "R/T UNIT", "INTERFACE CABLE",
+      "WEATHER MODULE", "ANTENNA DRIVE", "POWER SUPPLY UNIT"
+    ],
+    "failure_modes": [
+      "Signal loss", "Mechanical failure", "Component overheating", "Antenna stuck"
+    ],
+    "risk_level": "Moderate",
+    "priority ": "Moderate",
+    "replacement_interval": {
+      "Antenna": "Every 6 years or on-condition",
+      "Radome": "Every 3 years or after damage",
+      "Radar Unit": "On-condition"
+    },
+    "geo_targets": ["Tropical", "Mountain", "Coastal"],
+    "countries": ["Philippines", "Indonesia", "USA", "Vietnam"]
+  },
+  "cargo_handling_system": {
+    "keywords": [
+      "cargo door jam", "container stuck", "lift motor fail", "sensor fault",
+      "restraint failure", "roller stuck", "weight distribution error"
+    ],
+    "common_parts": [
+      "CARGO DOOR MOTOR", "DOOR LOCK", "ROLLER", "TRACK", "SENSOR",
+      "RESTRAINT BAR", "CARGO NET", "CONTROL PANEL", "WARNING INDICATOR"
+    ],
+    "failure_modes": [
+      "Door jam", "Motor fault", "Roller failure", "Control failure"
+    ],
+    "risk_level": "Moderate",
+    "priority ": "Moderate",
+    "replacement_interval": {
+      "Motors": "On-condition; inspect every 12 months",
+      "Sensors": "Every 2 years",
+      "Locks": "Every 3 years"
+    },
+    "geo_targets": ["Continental", "Desert", "Urban"],
+    "countries": ["Qatar", "China", "Germany", "USA", "UAE"]
+  },
+  "emergency_system": {
+    "keywords": [
+      "evacuation slide fail", "beacon not deploying", "emergency light off",
+      "life vest missing", "oxygen mask jam", "megaphone dead", "PBE expired"
+    ],
+    "common_parts": [
+      "EVAC SLIDE", "EMERGENCY BEACON", "LIFE VEST", "MEGAPHONE",
+      "OXYGEN MASK", "EMERGENCY EXIT LIGHT", "PORTABLE BREATHING EQUIPMENT (PBE)",
+      "FLASHLIGHT", "SMOKE HOOD"
+    ],
+    "failure_modes": [
+      "Deployment failure", "Battery depletion", "Seal damage", "Component expiry"
+    ],
+    "risk_level": "Critical",
+    "priority ": "Critical",
+    "replacement_interval": {
+      "Slides": "Every 10 years or after use",
+      "PBEs": "As per expiry date (~5–8 years)",
+      "Beacons": "Every 6 years or after deployment"
+    },
+    "geo_targets": ["All Types"],
+    "countries": ["Global coverage — required on all flights"]
+  }
+}
+
+
